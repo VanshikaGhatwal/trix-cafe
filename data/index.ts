@@ -1,0 +1,131 @@
+export const menuItems = [
+  {
+    id: 'f1', category: 'Food',
+    name: 'Whipped Ricotta Toast',
+    desc: 'Sourdough, whipped ricotta, heirloom tomatoes, fresh basil oil, fleur de sel',
+    price: 420, popular: true,
+    img: 'https://images.unsplash.com/photo-1484723091739-30990dd1drop?w=600&q=80',
+    tag: 'Morning',
+  },
+  {
+    id: 'f2', category: 'Food',
+    name: 'Truffle Egg Crostini',
+    desc: 'Slow-scrambled eggs, black truffle, gruyère, crisp levain',
+    price: 580, popular: false,
+    img: 'https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=600&q=80',
+    tag: 'Signature',
+  },
+  {
+    id: 'f3', category: 'Food',
+    name: 'Burrata & Stone Fruit',
+    desc: 'Buffalo burrata, grilled peach, pistachios, aged balsamic, micro herbs',
+    price: 640, popular: true,
+    img: 'https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=600&q=80',
+    tag: 'Chef\'s Pick',
+  },
+  {
+    id: 'c1', category: 'Coffee',
+    name: 'Signature Flat White',
+    desc: 'Double ristretto, silky micro-foam, single-origin Ethiopian blend',
+    price: 220, popular: true,
+    img: 'https://images.unsplash.com/photo-1517701604599-bb29b565090c?w=600&q=80',
+    tag: 'House',
+  },
+  {
+    id: 'c2', category: 'Coffee',
+    name: 'Cardamom Cold Brew',
+    desc: '24-hour steep, cardamom-infused, served over clear ice, hint of raw honey',
+    price: 280, popular: false,
+    img: 'https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=600&q=80',
+    tag: 'Summer',
+  },
+  {
+    id: 'c3', category: 'Coffee',
+    name: 'Trix Cortado',
+    desc: 'Equal parts espresso and lightly textured whole milk, perfectly balanced',
+    price: 190, popular: false,
+    img: 'https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=600&q=80',
+    tag: 'Classic',
+  },
+  {
+    id: 'd1', category: 'Drinks',
+    name: 'Rose Lychee Tonic',
+    desc: 'House rose syrup, fresh lychee, elderflower, premium tonic water',
+    price: 320, popular: true,
+    img: 'https://images.unsplash.com/photo-1560508179-b2c9a3f8e92b?w=600&q=80',
+    tag: 'Seasonal',
+  },
+  {
+    id: 'd2', category: 'Drinks',
+    name: 'Tumeric Golden Latte',
+    desc: 'Ceremonial turmeric, oat milk, cinnamon, black pepper, coconut sugar',
+    price: 260, popular: false,
+    img: 'https://images.unsplash.com/photo-1534040385115-33dcb3acba5b?w=600&q=80',
+    tag: 'Wellness',
+  },
+  {
+    id: 's1', category: 'Sweets',
+    name: 'Tarte au Citron',
+    desc: 'Meyer lemon curd, almond pastry shell, torched meringue, lemon zest',
+    price: 380, popular: true,
+    img: 'https://images.unsplash.com/photo-1464305795204-6f5bbfc7fb81?w=600&q=80',
+    tag: 'Patisserie',
+  },
+  {
+    id: 's2', category: 'Sweets',
+    name: 'Dark Chocolate Fondant',
+    desc: '72% Valrhona, molten centre, vanilla pod crème, praline crumble',
+    price: 420, popular: false,
+    img: 'https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=600&q=80',
+    tag: 'Indulgence',
+  },
+] as const
+
+export type MenuCategory = 'All' | 'Food' | 'Coffee' | 'Drinks' | 'Sweets'
+export const menuCategories: MenuCategory[] = ['All', 'Food', 'Coffee', 'Drinks', 'Sweets']
+
+export const testimonials = [
+  {
+    id: 't1',
+    name: 'Aditi Bhatt',
+    role: 'Creative Director',
+    avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=120&q=80',
+    rating: 5,
+    text: "Trix is unlike any café I've experienced in Delhi. The light, the pace, the coffee — it all feels completely intentional. I come here to think, to meet people, to simply exist beautifully.",
+  },
+  {
+    id: 't2',
+    name: 'Rohan Malhotra',
+    role: 'Architect',
+    avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=120&q=80',
+    rating: 5,
+    text: "As someone obsessed with space and materiality, Trix gets it right. Nothing feels accidental. The Cortado alone is reason enough, but the whole atmosphere keeps drawing me back.",
+  },
+  {
+    id: 't3',
+    name: 'Meera Krishnan',
+    role: 'Food Writer',
+    avatar: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=120&q=80',
+    rating: 5,
+    text: "I've written about restaurants for twelve years and Trix is genuinely special. The Burrata dish stopped me mid-sentence. That's the test. A place that makes you put down your pen.",
+  },
+  {
+    id: 't4',
+    name: 'Kabir Seth',
+    role: 'Filmmaker',
+    avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=120&q=80',
+    rating: 5,
+    text: "The evening light at Trix is something I've tried to recreate in my films. Warm, golden, unhurried. A meal here feels like a scene that lingers long after the credits.",
+  },
+]
+
+export const galleryImages = [
+  { id: 'g1', src: 'https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=700&q=85', alt: 'Trix Interior', aspect: 'tall' },
+  { id: 'g2', src: 'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=700&q=85', alt: 'Coffee Ritual', aspect: 'wide' },
+  { id: 'g3', src: 'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=700&q=85', alt: 'Dining Table', aspect: 'square' },
+  { id: 'g4', src: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=700&q=85', alt: 'Espresso Bar', aspect: 'tall' },
+  { id: 'g5', src: 'https://images.unsplash.com/photo-1600093463592-8e36ae95ef56?w=700&q=85', alt: 'Plate Art', aspect: 'square' },
+  { id: 'g6', src: 'https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?w=700&q=85', alt: 'Evening Mood', aspect: 'wide' },
+  { id: 'g7', src: 'https://images.unsplash.com/photo-1551218808-94e220e084d2?w=700&q=85', alt: 'Detail', aspect: 'square' },
+  { id: 'g8', src: 'https://images.unsplash.com/photo-1445116572660-236099ec97a0?w=700&q=85', alt: 'Café Mood', aspect: 'tall' },
+]
