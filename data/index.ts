@@ -4,7 +4,7 @@ export const menuItems = [
     name: 'Whipped Ricotta Toast',
     desc: 'Sourdough, whipped ricotta, heirloom tomatoes, fresh basil oil, fleur de sel',
     price: 420, popular: true,
-    img: 'https://images.unsplash.com/photo-1484723091739-30990dd1drop?w=600&q=80',
+    img: 'https://choosingchia.com/jessh-jessh/uploads/2022/06/whipped-ricotta-toast-4.jpg',
     tag: 'Morning',
   },
   {

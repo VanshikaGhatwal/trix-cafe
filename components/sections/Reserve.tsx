@@ -54,7 +54,7 @@ export default function Reserve() {
     e.preventDefault();
 
     const msg = encodeURIComponent(
-      ` =Reservation Request
+      `Reservation Request
 
 Name: ${form.name}
 Date: ${form.date}
